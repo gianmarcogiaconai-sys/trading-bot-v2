@@ -96,4 +96,4 @@ function SignalsPanel({ selectedCrypto }) {
                     ))}
                   </ul>
                 </div>
-              )}
+                    </div>)}
