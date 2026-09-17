@@ -92,8 +92,4 @@ function SignalsPanel({ selectedCrypto }) {
                   <p className="text-xs text-gray-600 font-semibold mb-1">Motivi:</p>
                   <ul className="text-xs text-gray-700 space-y-1">
                     {signal.reasons.map((reason, i) => (
-                      <li key={i}>• {reason}</li>
-                    ))}
-                  </ul>
-                </div>
-                    </div>)}
+                      <li key={i}>•
