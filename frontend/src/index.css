@@ -19,3 +19,29 @@ body {
 }
 
 #root {
+  min-height: 100vh;
+}
+
+.card {
+  @apply bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-6;
+}
+
+.btn {
+  @apply px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-all;
+}
+
+.btn-active {
+  @apply bg-blue-800;
+}
+
+.signal-buy {
+  @apply text-green-600 font-bold;
+}
+
+.signal-sell {
+  @apply text-red-600 font-bold;
+}
+
+.signal-hold {
+  @apply text-yellow-600 font-bold;
+}
